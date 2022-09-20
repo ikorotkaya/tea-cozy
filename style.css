@@ -1,0 +1,41 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+
+  text-align: center;
+}
+
+.tea-page__container {
+  margin: 0 auto;
+}
+
+.tea-page__header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+}
+
+.header__logo {
+  margin-left: 10px;;
+}
+
+.header__links {
+  display: flex;
+}
+
+.header__link:not(:last-child) {
+  margin-right: 12px;
+}
